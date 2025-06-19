@@ -107,7 +107,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, onProdu
                   {priceIncrease ? (
                     <span className="text-red-600">+${priceDifference.toFixed(2)} from base</span>
                   ) : (
-                    <span className="text-green-600">-${priceDiff erence.toFixed(2)} from base</span>
+                    <span className="text-green-600">-${priceDifference.toFixed(2)} from base</span>
                   )}
                 </div>
               )}
