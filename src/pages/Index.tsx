@@ -122,9 +122,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Store className="w-8 h-8 text-blue-600" />
               <h1 className="text-2xl font-bold text-gray-900">DynamicMart</h1>
-              <Badge variant="secondary" className="ml-2">Smart Pricing</Badge>
             </div>
             <div className="flex items-center space-x-4">
               <ShoppingCart
